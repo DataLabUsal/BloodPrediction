@@ -1,7 +1,7 @@
 #Exploración de datos
 
 #Fijamos un directorio de trabajo
-setwd("/Users/victor/Documents/DataLab/BloodComp")
+setwd("~/Documents/DataLab/BloodComp")
 
 #Subimos a nuestro entorno ambas bases. Test y Training
 Test_Data <- read.csv("~/Documents/DataLab/BloodComp/Test_Data.csv")
