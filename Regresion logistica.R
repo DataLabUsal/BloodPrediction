@@ -26,6 +26,7 @@ perf2 <- performance(pred2, "tpr","fpr")
 perf3 <- performance(pred3, "tpr","fpr")
 perf4 <- performance(pred4, "tpr","fpr")
 
+#Gráficos ROC
 plot(perf1)
 plot(perf2,add=TRUE,col='red')
 plot(perf3,add=TRUE,col='blue')
